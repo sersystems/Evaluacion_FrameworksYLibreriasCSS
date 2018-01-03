@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: 'Signika', sans-serif;
+	src: url(../fonts/Signika-Regular.ttf) format('ttf');
+}
+
+.bodyBlog{
+	width: 100%;
+	background-color: #7F1F00;	
+	font-family: 'Signika', sans-serif;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------
+	CABECERA DEL BLOG
+---------------------------------------------------------------------------------------------------------------------*/
+.cabecera{
+	width: 98%;
+	margin: 1% 0 1% 1%;
+	padding: 0;
+	background-color: #FFF;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-ms-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+.grupoIconoSocial{
+	width: 100%;
+	margin-left: -1%;
+	margin-bottom: 1%;
+	padding: 0;
+}
+.iconoSocial{
+	width: 7%;
+	padding-top: 14%;
+}
+.logoBlog{
+	width: 30%;
+	margin: 2% -1%;
+}
+
+.barraNavegacion{
+	width: 98%;
+	margin: -1% 1% 1% 1%;
+	background-color: #D49F00;
+}
+.itemBarraNavegacion li{
+	width: 16.33%;
+	text-align: center;
+}
+.textoBarraNavegacion li a{
+	width: 100%;
+	font-size: 1.2em;
+	text-align: center;
+	color: #7F1F00;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------
+	CONTENIDO DEL BLOG
+---------------------------------------------------------------------------------------------------------------------*/
+.container{
+	width: 98%;
+	margin: 1%;
+	padding: 0;
+	background-color: #FFF;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	-ms-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
+
+.sectorArtículo{
+	width: 100%;
+	margin: 4% 1% 0 0;
+	padding: 0.5% 0;
+	font-size: 1.3em;
+}
+.sectorComentario{
+	width: 100%;
+	margin: 2% 0;
+	padding: 1.2% 0;
+}
+
+.sectorBusqueda{
+	height: 100%;
+	width: 100%;
+	margin: 0 !important;
+	padding: 3%;
+	background-color: gray;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------
+	MEDIA QUERY
+---------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 480px){
+	.grupoIconoSocial{
+		margin-left: -8%;
+	}
+	.iconoSocial{
+		width: 23%;
+		padding-top: 26%;
+	}
+	.logoBlog{
+		width: 60%;
+		margin: 5% -6%;
+	}
+	.itemBarraNavegacion li{
+		width: 100%;
+		margin: 0;
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+	.grupoIconoSocial{
+		margin-left: -2%;
+	}
+	.iconoSocial{
+		width: 18%;
+		padding-top: 26%;
+	}
+	.logoBlog{
+		width: 60%;
+		margin: 5% 0;
+	}
+	.itemBarraNavegacion li{
+		width: 100%;
+		margin: 0;
+		font-size: 1em;
+	}
+}
