@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: 'Julee', cursive;
+	src: url(../fonts/Julee-Regular.ttf) format('ttf');
+	font-family: 'Indie Flower', cursive;
+	src: url(../fonts/IndieFlower.ttf) format('ttf');
+	font-family: 'Lobster', cursive;
+	src: url(../fonts/Lobster-Regular.ttf) format('ttf');
+	font-family: 'Alegreya', serif;
+	src: url(../fonts/Alegreya-Regular.ttf) format('ttf');
+}
+
+body{
+	font-family: 'Alegreya', serif;
+	font-size: 1.2em;
+	background: url(../img/fondo.jpg) no-repeat center center fixed;
+	background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;	
+}
+.panelBase{
+	width: 100%;
+	background: rgba(42,31,0,0.6);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------
+	CABECERA DEL BLOG
+---------------------------------------------------------------------------------------------------------------------*/
+h1{
+	color: #FFF;
+	font-family: 'Julee', cursive;
+	font-size: 3.3em;
+	text-shadow: 2px 2px 2px gray;
+		-webkit-text-shadow: 2px 2px 2px gray;
+		-moz-text-shadow: 2px 2px 2px gray;
+		-ms-text-shadow: 2px 2px 2px gray;
+}
+h3{
+	color: #FFF;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.6em;
+}
+h5{
+	color: #010000 !important;
+	font-family: 'Lobster', cursive;
+	font-size: 1.1em;
+}
+
+.panelMenu li a{
+	color: #FFF !important;
+	font-size: 1.2em;
+	text-shadow: 2px 2px 2px black;
+		-webkit-text-shadow: 2px 2px 2px black;
+		-moz-text-shadow: 2px 2px 2px black;
+		-ms-text-shadow: 2px 2px 2px black;
+}
+.panelHistorial li a{
+	color: #010000 !important;
+	font-style: italic;
+}
+.panelIzquierdo{
+	padding-top: 1.5%;
+	color: #FFF;
+	background-color: #AA3F55;
+}
+.imgFavorito{
+	height: 5em !important;
+	width: 100%;
+}
+.panelArticulo{
+	margin-bottom: 2%;
+	padding: 2%;
+	background-color: #FFF;
+}
+
+.cajaComentario{
+	margin: 1%;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 0.8em;
+}
+
+@media (max-width: 480px){
+	.panelIzquierdo{
+		margin: 3% 0;
+		padding-top: 3%;
+	}
+}
